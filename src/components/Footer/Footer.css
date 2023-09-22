@@ -1,0 +1,37 @@
+/* Footer Container */
+.footer-container {
+    background-color: white;
+    color: black;
+    padding: 20px;
+  }
+  
+  /* Footer Section */
+  .footer-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: right;
+    gap: 20px; /* Add this to create space between image and information */
+  }
+  
+  /* Footer Image */
+  .footer-image img {
+    height: 300px;
+    width: auto;
+  }
+  
+  /* Footer Info */
+  .footer-info {
+    flex: 1;
+  }
+  
+  .footer-info h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-info p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  

@@ -1,0 +1,43 @@
+/* NavBar.css */
+
+/* Overall Navbar styles */
+.navbar {
+    background-color: white; /* Background color for the navbar */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Adjust padding as needed */
+  }
+  
+  /* Logo styles */
+  .logo {
+    max-width: 200px; /* Adjust the maximum width of your logo */
+    padding: 10px;
+  }
+  
+  /* Navbar list styles */
+  .navbar-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px; /* Adjust the gap between navbar items as needed */
+  }
+  
+  /* Navbar item styles */
+  .navbar-item {
+    font-size: 25px;
+  }
+  
+  /* Navbar item link styles */
+  .navbar-item a {
+    text-decoration: none;
+    color: black; /* Text color for navbar items */
+    transition: color 0.3s ease;
+  }
+  
+  /* Navbar item link hover styles */
+  .navbar-item a:hover {
+    color: #ff4500; /* Text color on hover */
+  }
+  

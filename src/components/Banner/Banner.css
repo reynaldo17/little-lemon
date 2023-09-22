@@ -1,0 +1,62 @@
+/* Banner Container */
+.banner-header {
+  padding-top: 150px;
+  background-color: #495e57;
+}
+
+/* Banner Section */
+.banner-section {
+  width: 80%;
+  margin-left: 10%;
+  padding-bottom: 50px;
+  color: #edefee;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: center;
+}
+
+/* Banner Text */
+.banner-text {
+  grid-column: 1;
+}
+
+.banner-title {
+  color: #f4ce14;
+  font-size: 40pt;
+}
+
+.banner-location {
+  font-size: 20pt;
+}
+
+.banner-description {
+  font-size: 16pt;
+  max-width: 65ch;
+  line-height: 1.5;
+}
+
+/* Reserve Button */
+.reserve-button {
+  background-color: #f4ce14;
+  color: black;
+  padding: 20px;
+  border: none;
+  text-decoration: none;
+  border-radius: 12px;
+  font-size: 16pt;
+  font-weight: bold;
+}
+
+/* Banner Image */
+.banner-image img {
+  height: 400px;
+  border-radius: 12px;
+  transition: filter .2s ease-out;
+}
+
+.banner-image img:hover {
+  filter: drop-shadow(-36px 36px 0px #000000);  ;
+}
+
+

@@ -1,7 +1,7 @@
-import React from "react";
+import React, { Component } from "react";
 import food from '../Assets/food.jpeg';
-import "./Banner.css"; // Import the stylesheet
-// import { Link } from "react-router-dom";
+import "./Banner.css";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
@@ -13,9 +13,9 @@ const Banner = () => {
           <p className="banner-description">
             We are a family-owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.
           </p>
-          {/* <Link to="/Booking" className="reserve-button" aria-label="Reserve Table"> */}
+          <Link to="/Booking" className="reserve-button" aria-label="Reserve Table">
             Reserve Table
-          {/* </Link> */}
+          </Link>
         </div>
         <div className="banner-image">
           <img src={food} alt="menu food" />
